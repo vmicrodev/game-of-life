@@ -497,8 +497,8 @@
     </profiles>
     <repositories>
       <repository>
-        <id>maven-public</id>
-        <url>https://lab.nexus.com/repository/maven-public/</url>
+        <id>maven-central</id>
+        <url>https://lab.nexus.com/repository/maven-central/</url>
       </repository>
     </repositories>
     <distributionManagement>
