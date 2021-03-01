@@ -495,4 +495,20 @@
             </reporting>
         </profile>
     </profiles>
+    <repositories>
+      <repository>
+        <id>maven-public</id>
+        <url>https://lab.nexus.com/repository/maven-public/</url>
+      </repository>
+    </repositories>
+    <distributionManagement>
+      <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>https://lab.nexus.com/repository/maven-snapshots/</url>
+      </snapshotRepository>
+      <repository>
+        <id>nexus-releases</id>
+        <url>https://lab.nexus.com/repository/maven-releases/</url>
+      </repository>
+    </distributionManagement>
 </project>
